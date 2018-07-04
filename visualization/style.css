@@ -1,0 +1,115 @@
+body {
+    background: whitesmoke;
+}
+#container {
+    background: white;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#help {
+    position: relative;
+    top: 0;
+    margin: auto;
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    left: 10%;
+    margin-bottom: 10px;
+}
+
+#help div {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#help span {
+    margin-right: 20px;
+}
+#pristine {
+    background: #626262;
+}
+#success {
+    background: #1daa14;
+}
+#open {
+    background: #aaa90e;
+}
+#closed {
+    background: #aa322a;
+}
+#current {
+    background: #117ccd;
+}
+#goal {
+    background: #803faa;
+}
+
+
+.control {
+    position: absolute;
+    background: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 9%;
+    height: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    padding-top: 15%;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.control:hover {
+    border: 1px solid #8a8a8a;
+    background: #4a4a4a;
+}
+
+.control.disabled {
+    cursor: not-allowed;
+    background: #b4b4b4;
+    color: #5d5d5d;
+    border-color: #828282;
+}
+
+#back {
+    left: 0;
+    float: left;
+    bottom: 0;
+}
+
+#play, #pause {
+    right: 0;
+    float: left;
+    top: 0;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#reset {
+    left: 0;
+    float: left;
+    top: 0;
+}
+
+#forward {
+    right: 0;
+    float: right;
+    bottom: 0;
+}

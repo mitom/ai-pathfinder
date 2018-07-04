@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="sigma.min.js"></script>
+</head>
+<body>
+<div>
+    <div id="back" onclick="step(-1)" class="control disabled">Previous <br> <<</div>
+    <div id="reset" onclick="reset()" class="control disabled">Reset <br> |<</div>
+    <div id="play" onclick="play()" class="control">Play <br> ></div>
+    <div id="pause" onclick="play()" class="control hidden">Pause <br> ||</div>
+    <div id="forward" onclick="step(1)" class="control">Next <br> >></div>
+    <div id="help">
+        <div id="pristine"></div><span>Untouched</span>
+        <div id="goal"></div><span>Goal</span>
+        <div id="open"></div><span>Open list</span>
+        <div id="closed"></div><span>Closed list</span>
+        <div id="current"></div><span>Current path</span>
+        <div id="success"></div><span>Chosen path</span>
+    </div>
+    <div id="container"></div>
+</div>
+
+<script src="main.js"></script>
+<script src="instructions.js"></script>
+</body>
+</html>
